@@ -1,0 +1,42 @@
+/* Create your own fonts
+@font-face{
+    /* font-family:'My Custom Font'; */
+    /*font-family: 'PTSans-Regular';
+    src: url('../fonts/PTSans-Regular.ttf') ;*/ /*.. meaning going up and up so it goes to CSS then assets*/
+/*} */
+
+/* h1{
+    color: orange;
+    font-family: 'PTSans-Regular', Times New Roman, Times, serif;
+    
+} */
+
+h1{    
+    font-size: 3rem;
+    font-style: italic;      
+    font-family: 'Roboto Mono', monospace;  
+    /* font: bold 2em/1.5 'Roboto Mono', monospace; ; */
+    text-align: center;
+    /* text-decoration: line-through; */
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px red;
+}
+
+.button {
+    box-shadow: 10px 10px 5px grey;
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    line-height: 200px;
+
+    
+}
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    /* font-variant: small-caps; */
+    font-weight: 400;
+    line-height: 1.5;
+    /* letter-spacing: 5px; */
+    word-spacing: 30px;
+}
