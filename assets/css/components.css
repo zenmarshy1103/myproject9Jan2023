@@ -1,22 +1,44 @@
 .background {
-    /*Think of this as the backgound poster that has no significant*/
-    height: 700px;
+    height: 100%;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(10, 10, 10, 0.75)),
+    url('https://picsum.photos/id/1050/2560/1440');     
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.center-block {
+    /* border: 2px solid rgb(255, 255, 255); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h1 {
+    color: white;
+    font-family: labrada;
+    font-size: 5rem;
+    text-align: center;
+}
+
+a {    
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0 auto;
     border: 2px solid;
-    /* background-color: red; */
-    /* background: red; */
-    /* background-image: url('https://picsum.photos/id/1050/2000');
-    background-repeat: no-repeat; */
-    /* background-position: 50% 50%; */
-    /* background-position: 50%; */
-    /* background-position: center;
-    background-size: cover; */
-    /* opacity: 0.5; */
-    /* background: linear-gradient(rgba(255, 0, 0, 0.75), rgba(0,0,0,0.5), yellow); */
-    /* background: linear-gradient(to top,blue, yellow); */
-    /* background: linear-gradient(red 0%, blue 50%); */
-    /* background: radial-gradient(#f11, #0f0); */
-    /* background: radial-gradient(#f22 50%, #f0f 50%); */
-    background:
-        repeating-linear-gradient(45deg, transparent, blue 20px),
-        repeating-linear-gradient(green 20px, orange );
-} 
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: red;
+}
+
+a:hover{
+    background-color: white;
+    color: red;
+    border-color: red;
+
+}
